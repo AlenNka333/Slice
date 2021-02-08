@@ -7,5 +7,4 @@ Pizzabot. Task is to instruct Pizzabot on how to deliver pizzas to all the house
   - D: Drop pizza
   Pizzabot always starts at the origin point, (0, 0). As with a Cartesian plane, this point lies at the most south- westerly point of the grid.
   
-  Solution: With the help of greedy algorithm I find the nearest for current position house, and calculate way according to difference between X and Y coordinates.
-  
+  Usage instructions: To open the app go to progect folder and run the command './pizzabot "[your input string]"'. Add input string using the example "5x5 (1, 3) (4, 4)". As an answer you will get a string with path from house to house to deliver pizza, for example "ENNNDEEEND".
